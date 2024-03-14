@@ -34,11 +34,24 @@ body{
     text-decoration: none;
 }
 
-.link ul a{
+.link ul li a{
     padding: 40px;
     text-decoration: none;
     color: white;
 }
+
+.link ul li a{
+    padding: 40px;
+    transition: all 0.5s ease;
+    
+    color: white;
+}
+.link ul li a:hover{
+    color: rgb(109, 106, 106);
+    transition: all 0.5s ease;
+}
+
+
 .main{
     text-align: center;
     align-items: center;
