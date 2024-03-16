@@ -97,6 +97,10 @@ ul{
     list-style-type: none;
 }
 
+.list li{
+    border-bottom: 1px solid rgb(218, 185, 126) !important;
+}
+
 
 .soz{
     width: 800px;
