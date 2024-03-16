@@ -1,89 +1,111 @@
 *{
-    padding: 0px;
     margin: 0px;
-
+    padding: 0px;    
 }
+
 body{
     background-image: url(https://startbootstrap.github.io/startbootstrap-business-casual/assets/img/bg.jpg);
+    font-family: "Raleway", sans-serif;
 }
-.head h1{
-    padding: 40px;
-    color: rgb(196, 161, 95);
+
+.head h3{
+    color: rgb(230, 209, 125);
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
 }
 
 .head h2{
     color: rgb(225, 225, 225);
-   
-
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    font-size: 5rem;
 }
 
 .head{
- text-align: center;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px
 }
-
+.head h1{
+    color: wheat;
+}
+.link{
+    margin-bottom: 120px;
+}
 
 .link ul{
     background-color: rgba(75, 49, 49, 0.714);
     height: 20px;
     text-align: center;
     align-items: center;
-    margin-top: 30px;
-    padding: 40px;
+    margin-top: 10px;
+    padding: 20px;
     justify-content: center;
     display: flex;
     text-decoration: none;
     list-style: none;
 }
 
-.link ul a{
-    padding: 40px;
-    text-decoration: none;
-    color: white;
-}
-
 .link ul li a{
     padding: 40px;
-    transition: all 0.5s ease;
-    
+    transition: all 0.5s ;
     color: white;
+    text-decoration: none;
 }
 .link ul li a:hover{
     color: rgb(109, 106, 106);
-    transition: all 0.5s ease;
+    transition: all 0.5s ;
+
 }
 
 .img1 img{
+    position: relative;
     width: 600px;
     height: 500px;
-    position: relative;
-    border-radius: 10px;
-    padding-left: 300px;
+    padding-left: 450px;
     padding-top: 200px;
     padding-bottom: 60px;
 }
 
 .first{
-    background-color: rgb(243, 219, 187);
     position: absolute;
+    background-color: rgb(243, 219, 187);
     width: 400px;
     height: 120px;
-    text-align: center;
     padding-top: 60px;
-    top: 45%;
-    right: 20%;
+    top: 57%;
+    right: 13%;
     border-radius: 10px;
+    padding-left: 100px;
+}
+
+h4{
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: medium;
+}
+
+span{
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: xx-large;
+    /* padding-left: 10px; */
+
 }
 
 .yazi1{
     background-color:  rgb(243, 219, 187);
     position: absolute;
     width: 500px;
-    height: 150px;
     text-align: center;
-    padding-top: 40px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
     top: 120%;
     left: 2%;
     border-radius: 10px;
@@ -96,8 +118,7 @@ body{
     width: 600px;
     height: 500px;
     position: relative;
-    border-radius: 10px;
-    padding-left: 350px;
+    padding-left: 450px;
     padding-top: 200px;
     padding-bottom: 60px;
 }
@@ -107,11 +128,11 @@ body{
     position: absolute;
     width: 500px;
     height: 120px;
-    text-align: center;
     padding-top: 80px;
-    top: 150%;
-    left: 2%;
+    top: 170%;
+    left: 6%;
     border-radius: 10px;
+    padding-left: 100px;
     font-size: larger;
 }
 
@@ -137,7 +158,7 @@ body{
     height: 500px;
     position: relative;
     border-radius: 10px;
-    padding-left: 350px;
+    padding-left: 450px;
     padding-top: 200px;
     padding-bottom: 60px;
 }
@@ -147,10 +168,10 @@ body{
     position: absolute;
     width: 600px;
     height: 100px;
-    text-align: center;
+    padding-left: 100px;
     padding-top: 80px;
-    top: 250%;
-    right: 8%;
+    top: 265%;
+    right: 2%;
     border-radius: 10px;
     font-size: larger;
 }
@@ -164,7 +185,7 @@ body{
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    top: 310%;
+    top: 330%;
     left: 5%;
     border-radius: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
